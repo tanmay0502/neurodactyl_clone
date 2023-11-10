@@ -6,6 +6,7 @@
 }
   
 .landing-page-text {
+  font-family: "TildaSans";
   flex: 1;
   padding: 20px;
   display: flex;
@@ -29,13 +30,13 @@
 .landing-page-text li {
   margin: 1% 0;
   list-style: inside;
-  font-size: 1.2rem;
+  font-size: 25px;
 }
 
 .landing-page-text h2 {
-  font-size: 1.3rem;
-  margin-top: 20px;
-  font-weight: 800;
+  font-size: 1.4rem;
+  margin-top: 24px;
+  font-weight: 900;
   color: #5452FE;
 }
 

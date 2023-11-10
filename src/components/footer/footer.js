@@ -7,7 +7,7 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <Image src="/images/logo.png" alt="Logo" width={100} height={100} />
+          <Image src="/images/logo.png" alt="Logo" width={150} height={150} />
         </div>
         <div className="footer-text">
           <p>All Right Reserved, 2023. Neurodactyl, LLC.</p>

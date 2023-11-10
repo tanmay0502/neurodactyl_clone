@@ -1,5 +1,6 @@
 
 .navbar {
+  font-family: "TildaSans";
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -79,10 +80,13 @@
   
 .navbar-links ul li:hover .dropdown-menu {
   display: block;
+  letter-spacing: 1px;
+ 
 }
 .navbar-links ul li .dropdown-menu li {
   padding: 5px;
   font-size: 16px;
+  margin-bottom: 3px;
 }
   
 .navbar-links ul li .dropdown-menu a {
@@ -90,8 +94,9 @@
   text-decoration: none;
 }
 .dropdown-symbol{
-  font-size: 10px;
-  margin-left: 4px;
+  font-size: 7px;
+  margin-left: 5px;
+  margin-top: 5px;
 }
 
 @media only screen and (max-width: 768px) {

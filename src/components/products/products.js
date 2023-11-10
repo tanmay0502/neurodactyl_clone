@@ -5,8 +5,8 @@ import './products.css';
 const Products = () => {
   return (
     <div className="products-container">
-      <h2>Products</h2>
-      <div className="product-line"></div>
+      <h2 className='pb-20'>Products</h2>
+      {/* <div className="product-line"></div> */}
       <div className="products-list">
         <SingleProduct
           headline="SDK"
