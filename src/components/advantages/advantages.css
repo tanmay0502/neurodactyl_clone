@@ -1,0 +1,49 @@
+.advantages-container {
+    background-color: #5452FE;
+    width: 100%;
+    color: white;
+    font-family: 'TildaSans', sans-serif;
+    padding: 1% 15%;
+}
+.adv{
+    font-weight: 500;
+    font-size: 52px;
+    color: white
+}
+.advantages {
+    margin: 1% 10% 0%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; 
+}
+
+.single-advantage {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    text-align: center;
+    margin-bottom: 20px;
+    width: 300px;
+}
+
+.headline {
+    font-weight: 700;
+    font-size: 20px;
+    text-decoration: none;
+}
+.description{
+    font-size: 16px;
+}
+@media only screen and (max-width: 1200px) {
+    .advantages {
+    grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .advantages {
+    grid-template-columns: 1fr;
+    }
+}
+
+  

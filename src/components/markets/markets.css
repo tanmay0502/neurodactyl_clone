@@ -1,0 +1,75 @@
+
+.single-market {
+    margin: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    font-family: "TildaSans";
+}
+.markets-tag{
+    font-family: "TildaSans";
+    display: flex;
+    font-size: 52px;
+    font-weight: 500;
+    color: #6563FE;
+    margin: 2% 15%;
+}
+.market-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.market-details img {
+    max-width: 100%;
+    height: auto;
+}
+
+.text-details {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-left {
+    flex-direction: column;
+}
+
+.image-right {
+    flex-direction: column-reverse;
+}
+p .description{
+    font-size: 18px;
+}
+.single-market .headline {
+    font-size: 30px;
+    color: #5452fe;
+    font-weight: 600;
+}
+.market-desc{
+    font-size: 18px;
+    font-family: "TildaSans";
+    font-weight: 300;
+}
+@media only screen and (max-width: 768px) {
+    .single-market {
+    display: flex;
+    flex-direction: column;
+    }
+    .single-market .headline {
+        padding-top: 20%;
+    }
+
+    .single-market .headline {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    }
+
+    .market-details {
+    flex-direction: column;
+    }
+
+    .image-left,
+    .image-right {
+    flex-direction: column;
+    }
+}
