@@ -1,0 +1,35 @@
+
+.footer {
+  background-color: #7000CE;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+}
+  
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+  
+.footer-logo {
+  margin-right: 10px;
+}
+.footer-text {
+  max-width: 600px;
+  margin: 0 auto;
+}
+  
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-logo {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+  

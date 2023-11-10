@@ -1,0 +1,142 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  background-color: #7000CE;
+  height: 90px;
+  width: 100%;
+  padding: 0% 20px;
+  position: fixed;
+  z-index: 10;
+}
+.navbar-logo {
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding-left: 1%;
+}
+
+.navbar-links {
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-links ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 20px;
+  align-items: center;
+}
+.navbar-links li {
+  display: flex;
+  font-size: 25px;
+  list-style-type: none;
+  padding: 20px;
+  align-items: center;
+}
+.navbar-mobile-button {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+.bar {
+  width: 30px;
+  height: 3px;
+  margin: 4px 0;
+  background-color: #ffffff;
+  transition: 0.4s;
+}
+
+.bar-1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.bar-2 {
+  opacity: 0;
+}
+
+.bar-3 {
+  transform: rotate(45deg) translate(-5px, -6px);
+}
+.navbar-links ul li {
+    position: relative;
+}
+.navbar-links ul li .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #7000CE;
+  padding: 10px;
+  list-style-type: none;
+  z-index: 1;
+}
+  
+.navbar-links ul li:hover .dropdown-menu {
+  display: block;
+}
+.navbar-links ul li .dropdown-menu li {
+  padding: 5px;
+  font-size: 16px;
+}
+  
+.navbar-links ul li .dropdown-menu a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.dropdown-symbol{
+  font-size: 10px;
+  margin-left: 4px;
+}
+
+@media only screen and (max-width: 768px) {
+  .navbar {
+    height: 80px;
+  }
+
+  .navbar-logo {
+    width: 30px;
+  }
+
+  .navbar-text h1 {
+    font-size: 1rem;
+  }
+
+  .navbar-links ul {
+    display: none;
+  }
+
+  .navbar-divider {
+    display: none;
+  }
+
+  .navbar-button {
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 6px 12px;
+    margin-right: 12px;
+  }
+
+  .navbar-mobile-button {
+    display: flex;
+  }
+
+  .navbar.mobile-menu-open ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background-color: #7000CE;
+    width: 100%;
+  }
+
+  .navbar.mobile-menu-open ul li {
+    margin: 10px;
+  }
+}
