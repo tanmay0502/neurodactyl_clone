@@ -3,7 +3,7 @@
     text-align: center;
     width: 40%;
     margin: auto;
-    padding: 10% 0;
+    padding: 10% 0 2% 0;
     background-color: #fff;
 }
   
@@ -51,17 +51,16 @@ textarea{
 }
   
 submit-btn {
-    background-color: #5452fe;
     width: 100px;
-    color: #660909;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 15px;
-    cursor: pointer;
 }
+
+
   
 .center {
     text-align: center;
+}
+.bg-newblue{
+    background-color: #5452fe;
 }
   
 @media only screen and (max-width: 768px) {

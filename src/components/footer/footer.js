@@ -11,8 +11,8 @@ function Footer() {
         </div>
         <div className="footer-text">
           <p>All Right Reserved, 2023. Neurodactyl, LLC.</p>
-          <p>Address: Georgia, Tbilisi, Nadzaladevi District, Kursebi Street, N15.</p>
-          <p>Identification Number: 400354488</p>
+          <p>Address: Georgia, Tbilisi, Nadzaladevi District, Kursebi Street, N15. Identification Number: </p>
+          <p>400354488</p>
           <p>E-mail us: info@neurodactyl.com</p>
         </div>
       </div>

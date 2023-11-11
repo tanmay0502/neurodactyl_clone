@@ -23,8 +23,10 @@ const Contact = () => {
           <label htmlFor="question">Your Question</label>
           <textarea rows="6" id="question" placeholder="Type your question here..."></textarea>
         </div>
-        <div className="submit-btn">
-          <button type="submit">Send</button>
+        <div className='flex justify-center'>
+          <div className="submit-btn flex justify-center w-40 bg-newblue hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-10"> 
+            <button className='p-2' type="submit">Send</button>
+          </div>
         </div>
       </form>
     </div>

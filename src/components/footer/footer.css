@@ -9,6 +9,7 @@
   
 .footer-content {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -16,10 +17,15 @@
   
 .footer-logo {
   margin-right: 10px;
+  position: absolute;
+  left: 20px;
 }
 .footer-text {
   max-width: 600px;
+  width: 100%;
+  text-align: center;
   margin: 0 auto;
+  font-weight: 700;
 }
   
 @media only screen and (max-width: 768px) {
@@ -28,6 +34,8 @@
   }
 
   .footer-logo {
+    position: relative;
+    left: 0;
     margin-right: 0;
     margin-bottom: 10px;
   }
