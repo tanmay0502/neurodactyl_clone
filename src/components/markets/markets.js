@@ -63,7 +63,7 @@ const marketData = [
 
 function Markets() {
   return (
-    <div className="markets-container">
+    <div id='markets' className="markets-container">
       <div className='markets-tag'>Markets</div>
       <div className="market-list">
         {marketData.map((market, index) => (

@@ -3,7 +3,7 @@ import './contact.css';
 
 const Contact = () => {
   return (
-    <div className="contact-container">
+    <div id='contacts' className="contact-container">
       <h2 className='flex justify-center my-10 '>Contact Us</h2>
       <div className="contact-line pb-20">Any question about our product or technologies?<br /> Just text us!</div>
       <form>

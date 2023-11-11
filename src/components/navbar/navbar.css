@@ -25,7 +25,9 @@
   display: flex;
   align-items: center;
 }
-
+.highlighted{
+  opacity: 0.4;
+}
 .navbar-links ul {
   display: flex;
   list-style-type: none;

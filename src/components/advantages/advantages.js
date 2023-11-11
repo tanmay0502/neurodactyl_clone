@@ -13,7 +13,7 @@ const advantageData = [
 
 function Advantages() {
     return (
-      <div className="advantages-container">
+      <div id='advantages' className="advantages-container">
         <div className='adv pb-14 pt-6'>Advantages</div>
         <div className="advantages">
           {advantageData.map((advantage, index) => (
