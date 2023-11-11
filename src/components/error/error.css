@@ -1,0 +1,14 @@
+.error-container {
+    font-family: "TildaSans";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 130px);
+    text-align: center;
+  }
+  
+  .home-button:hover {
+    background-color: #2980b9;
+  }
+  

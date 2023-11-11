@@ -55,17 +55,17 @@ function Navbar() {
               <Link className="hover:opacity-40" href="/">Products</Link>
               <span className="dropdown-symbol">▼</span>
               <ul className="dropdown-menu">
-                <li><Link href="/">Server SDK for fingerprint recognition</Link></li>
-                <li><Link href="/">Server platform for fingerprint recognition</Link></li>
-                <li><Link href="/">Mobile SDK for touchless fingerprint capture</Link></li>
+                <li><Link className="hover:opacity-40" href="/sdk">Server SDK for fingerprint recognition</Link></li>
+                <li><Link className="hover:opacity-40" href="/rest-api">Server platform for fingerprint recognition</Link></li>
+                <li><Link className="hover:opacity-40" href="/mobileapp">Mobile SDK for touchless fingerprint capture</Link></li>
               </ul>
             </li>
             <li>
               <Link className="hover:opacity-40" href="/">Solutions</Link>
               <span className="dropdown-symbol">▼</span>
               <ul className="dropdown-menu">
-                <li><Link href="/">Biometric deduplication</Link></li>
-                <li><Link href="/">Fingerprint card conversion</Link></li>
+                <li><Link className="hover:opacity-40" href="/deduplication">Biometric deduplication</Link></li>
+                <li><Link className="hover:opacity-40" href="/fingerprintcards">Fingerprint card conversion</Link></li>
               </ul>
             </li>
             <li className={sectionVisibility.advantages ? "highlighted" : ""}>
@@ -78,7 +78,7 @@ function Navbar() {
             </li>
             {sectionVisibility.markets ? "↑" : ""}
             <li>
-              <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="/">News</Link>
+              <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="/news">News</Link>
             </li>
             <li className={sectionVisibility.aboutus ? "highlighted" : ""}>
               <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="#aboutus">About us</Link>
