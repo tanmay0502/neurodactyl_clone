@@ -81,3 +81,11 @@ p .description{
         margin-left: 5%;
     }
 }
+.single-market {
+    opacity: 0;
+    transition: opacity 0.25s ease-in;
+  }
+  
+  .single-market.visible {
+    opacity: 1;
+  }
