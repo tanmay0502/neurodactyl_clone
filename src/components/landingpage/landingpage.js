@@ -13,6 +13,9 @@ function LandingPageComponent() {
           <li>Work with scans and photo images</li>
           <li>All types of fingerprints are supported</li>
         </ul>
+        <div className="landing-image-mobile">
+          <Image src="/images/handbg.png" alt="Image" width={2000} height={2000} />
+        </div>
         <h2 className=''>Top-tier algorithm accuracy&nbsp; <Link href='/s' className='underline'>{' '} in NIST PFT III evaluation</Link></h2>
       </div>
       <div className="landing-page-image">

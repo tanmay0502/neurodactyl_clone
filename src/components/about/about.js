@@ -6,7 +6,7 @@ const About = () => {
     <div className="about-container">
       <div className="about-content">
         <h2 className='flex justify-center pb-4'>About Us</h2>
-        <div className='px-10 pb-6'>
+        <div className='md:px-10 pb-6'>
             <p>
             Neurodactyl is a technology start-up founded in 2023 by specialists in machine vision and deep learning technologies.
             We have vast experience in biometric markets and have been working with different biometric technologies since 2014,

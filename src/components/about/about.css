@@ -14,7 +14,6 @@
     background-color: rgba(255, 255, 255, 1);
     padding: 40px;
     width: 40%;
-    text-align: justify;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
@@ -31,5 +30,10 @@
 @media only screen and (max-width: 768px) {
     .about-content {
         width: 90%;
+        padding: 50px 30px;
+        margin: 20% 5%;
+    }
+    .about-content p {
+        font-size: 18px;
     }
 }

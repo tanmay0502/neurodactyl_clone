@@ -17,6 +17,7 @@
   display: flex;
   align-items: center;
   padding-left: 1%;
+  min-width: 200px;
 }
 
 .navbar-links {
