@@ -53,7 +53,9 @@ function Navbar() {
                 <Link className="hover:opacity-40" href="/">Contacts</Link>
               </li>
               <li>
-                <Link className="hover:opacity-40" href="mailto:info@neurodactyl.com" >✉️</Link>
+                <Link className="hover:opacity-40" href="mailto:info@neurodactyl.com" >
+                  <Image className="pl-4" src="/mail.svg" alt="mail" width={50} height={50} />
+                </Link>
               </li>
             </ul>
             <div className="navbar-mobile-button" onClick={toggleMobileMenu}>
