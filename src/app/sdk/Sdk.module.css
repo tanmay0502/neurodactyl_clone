@@ -1,0 +1,82 @@
+
+.sdkContainer {
+    font-family: 'TildaSans';
+    padding-top: 90px;      
+    flex-direction: column;
+    width: 100%;
+}
+  
+.headerContainer {
+
+}
+
+.titleContainer {
+    font-size: 64px;
+    font-weight: 600;
+    display: flex;
+    width: 100%;
+    padding: 5% 30% 2% 30%;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.separator {
+    height: 4px;
+    background-color: #6563FE;
+    width: 100px;
+    margin: auto;
+}
+
+.descriptionContainer {
+    width: 50%;
+    margin: auto;
+}
+
+.descriptionText {
+    padding-top: 40px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.tryOnlineButton {
+    justify-content: center;
+    display: flex;
+    margin: 50px auto;
+    background-color: #FFA500;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 9999px;
+    cursor: pointer;
+}
+
+.tabsContainer {
+    margin-top: 20px;
+
+}
+
+.tabs {
+    display: flex;
+    justify-content: center;
+}
+
+.tabhead {
+    justify-content: center;
+    display: flex;
+    width: 200px;
+    font-size: 16px;
+    
+    cursor: pointer;
+}
+
+.activeTab {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.tab{
+    width: 60%;
+    margin: 60px auto;
+}
+
+

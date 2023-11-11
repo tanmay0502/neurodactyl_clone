@@ -1,0 +1,41 @@
+.tabContent {
+}
+
+.feature {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  background-color: #6663fe00;
+  color: #000000;
+  border-radius: 50%;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.featureDetails {
+  flex: 1;
+}
+
+.featureDetails h3 {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.featureDetails p {
+  padding-top: 20px;
+  font-size: 18px;
+  font-weight: 300;
+}
+.linetext{
+    padding-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+}
