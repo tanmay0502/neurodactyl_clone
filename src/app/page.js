@@ -6,6 +6,8 @@ import Products from '@/components/products/products'
 import Advantages from '@/components/advantages/advantages'
 import SingleMarket from '@/components/markets/singlemarket'
 import Markets from '@/components/markets/markets'
+import About from '@/components/about/about'
+import Contact from '@/components/contact/contact'
 export default function Home() {
   return (
     <div>
@@ -14,6 +16,8 @@ export default function Home() {
       <Products />
       <Advantages />
       <Markets />
+      <About />
+      <Contact />
       <Footer/>
     </div>
   )

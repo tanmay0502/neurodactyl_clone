@@ -13,10 +13,10 @@ function LandingPageComponent() {
           <li>Work with scans and photo images</li>
           <li>All types of fingerprints are supported</li>
         </ul>
-        <h2>Top-tier algorithm accuracy&nbsp; <Link href='/s' className='underline'>{' '} in NIST PFT III evaluation</Link></h2>
+        <h2 className=''>Top-tier algorithm accuracy&nbsp; <Link href='/s' className='underline'>{' '} in NIST PFT III evaluation</Link></h2>
       </div>
       <div className="landing-page-image">
-        <Image src="/images/handbg.png" alt="Image" width={100} height={100} />
+        <Image src="/images/handbg.png" alt="Image" width={2000} height={2000} />
       </div>
     </div>
   );

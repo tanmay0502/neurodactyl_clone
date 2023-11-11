@@ -1,6 +1,6 @@
 
 .single-market {
-    margin: 5% 15%;
+    margin: 0% 15%;
     display: flex;
     flex-direction: column;
     font-family: "TildaSans";
@@ -11,7 +11,8 @@
     font-size: 52px;
     font-weight: 500;
     color: #6563FE;
-    margin: 2% 15%;
+    margin-top: 5%;
+    margin-left: 15%;
 }
 .market-details {
     display: flex;
@@ -22,6 +23,7 @@
 .market-details img {
     max-width: 100%;
     height: auto;
+    margin: 0% 5%;
 }
 
 .text-details {
