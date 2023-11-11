@@ -51,27 +51,33 @@ p .description{
     font-size: 18px;
     font-family: "TildaSans";
     font-weight: 300;
+    color: #9B9B9B;
 }
 @media only screen and (max-width: 768px) {
     .single-market {
     display: flex;
     flex-direction: column;
     }
-    .single-market .headline {
-        padding-top: 20%;
+    .single-market {
+        margin: 0% 5%;
     }
-
     .single-market .headline {
-    font-size: 1.5rem;
-    margin-bottom: 10px;
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        padding-top: 5%;
     }
 
     .market-details {
-    flex-direction: column;
+        flex-direction: column;
     }
 
     .image-left,
     .image-right {
-    flex-direction: column;
+        flex-direction: column;
+    }
+    .markets-tag{
+        font-size: 30px;
+        margin-top: 5%;
+        margin-left: 5%;
     }
 }
