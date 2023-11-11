@@ -40,6 +40,9 @@ function Navbar() {
     };
   }, []);
 
+  const handleNavbarItemClick = () => {
+    setIsMobileMenuOpen(false); 
+  };
   return (
     <>
       <nav className={`navbar ${isMobileMenuOpen ? "mobile-menu-open" : ""}`}>
@@ -66,23 +69,23 @@ function Navbar() {
               </ul>
             </li>
             <li className={sectionVisibility.advantages ? "highlighted" : ""}>
-              <Link className="hover:opacity-40" href="#advantages">Advantages</Link>
+              <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="#advantages">Advantages</Link>
               
             </li>
             {sectionVisibility.advantages ? "↑" : ""}
             <li className={sectionVisibility.markets ? "highlighted" : ""}>
-              <Link className="hover:opacity-40" href="#markets">Markets</Link>
+              <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="#markets">Markets</Link>
             </li>
             {sectionVisibility.markets ? "↑" : ""}
             <li>
-              <Link className="hover:opacity-40" href="/">News</Link>
+              <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="/">News</Link>
             </li>
             <li className={sectionVisibility.aboutus ? "highlighted" : ""}>
-              <Link className="hover:opacity-40" href="#aboutus">About us</Link>
+              <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="#aboutus">About us</Link>
             </li>
             {sectionVisibility.aboutus ? "↑" : ""}
             <li className={sectionVisibility.contacts ? "highlighted" : ""}>
-              <Link className="hover:opacity-40" href="#contacts">Contacts</Link>
+              <Link onClick={handleNavbarItemClick} className="hover:opacity-40" href="#contacts">Contacts</Link>
             </li>
             {sectionVisibility.contacts ? "↑" : ""}
             <li>
